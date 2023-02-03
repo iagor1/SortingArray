@@ -8,7 +8,7 @@ namespace OrdenandoArray
         {
             double a = 0;
             int maisBaixo = 0;
-            for (int atual = 0; atual <= 4; atual++)
+            for (int atual = 0; atual <= (numeros.Length - 1); atual++)
             {
                 if (numeros[atual] < numeros[maisBaixo])
                 {
